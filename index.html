@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>miu.reg</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1><span>MIU</span> Students's Regestration Form</h1>
+    <p style="text-align: center;">Make sure that you fill in all the required information</p>
+    <form>
+        <fieldset>
+            <label>Enter first name: <input type="text" required> </label>
+            <label>Enter second name: <input type="text" required> </label>
+            <label>Enter phone number: <input type="text" required></label>
+            <label>Enter email: <input type="email" required></label>
+            <label>Create password: <input type="password" required> </label>
+        </fieldset>
+        <fieldset>
+            <legend>Account type required</legend>
+            <label><input type="radio" class="kk" checked name="acc">Personal</label>
+            <label><input type="radio" class="kk" name="acc" >Group</label>
+        </fieldset>
+        <fieldset>
+            <label>Provide a bio:<textarea placeholder="I love coding..." rows="3" cols="30"></textarea></label>
+        </fieldset>
+        <label><input type="checkbox" class="kk" required>I've read and accepted the <a href="#">terms and conditions</a> of MIU</label>
+        <center><input type="submit" value="submit"></center>
+    </form>
+</body>
+</html>
